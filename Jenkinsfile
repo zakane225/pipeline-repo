@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools{
-        maven 'M2_MAVEN'
+        maven 'M2_HOME'
     }
     stages{
         stage('maven clean'){
